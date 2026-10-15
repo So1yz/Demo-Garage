@@ -1,0 +1,168 @@
+/**
+ * Autora Automotive — Layout & Utility Classes
+ */
+
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-1 { gap: var(--space-1); }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+.gap-4 { gap: var(--space-4); }
+.gap-6 { gap: var(--space-6); }
+.gap-8 { gap: var(--space-8); }
+.gap-12 { gap: var(--space-12); }
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Sections */
+.section {
+  padding: var(--space-12) 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: var(--space-16) 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-lg {
+    padding: var(--space-24) 0;
+  }
+}
+
+.section-dark {
+  background-color: var(--color-canvas-dark);
+  color: var(--color-text-dark-primary);
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+  color: #ffffff;
+}
+
+.section-dark p {
+  color: var(--color-text-dark-secondary);
+}
+
+/* Cinematic Hero Layout Shell */
+.hero-wrapper {
+  position: relative;
+  padding: var(--space-12) 0 var(--space-16);
+  background-color: var(--color-canvas);
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .hero-wrapper {
+    padding: var(--space-16) 0 var(--space-20);
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: var(--space-12);
+    align-items: center;
+  }
+}
+
+/* Subtle Technical Ambient Lines for Automotive Aesthetic */
+.ambient-grid {
+  background-image: 
+    linear-gradient(to right, rgba(17, 19, 21, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(17, 19, 21, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Accessibility: Screen-reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Skip link for keyboard accessibility */
+.skip-link {
+  position: absolute;
+  top: -120px;
+  left: var(--space-4);
+  background: var(--color-surface-dark);
+  color: #ffffff;
+  padding: var(--space-3) var(--space-5);
+  z-index: var(--z-skip-link);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--color-accent);
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: var(--space-4);
+}

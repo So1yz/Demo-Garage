@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Route | Autora Automotive Rotterdam</title>
+    <meta
+      name="description"
+      content="Neem contact op met Autora Automotive in Rotterdam. Maak direct een afspraak of vraag een vrijblijvende prijsopgave aan."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Direct naar inhoud</a>
+
+    <!-- Header & Navigatie -->
+    <header class="site-header">
+      <div class="container site-nav">
+        <a href="/" class="nav-brand" aria-label="Autora Automotive Home">
+          <span class="nav-brand-text">Autora <span class="nav-brand-sub">Automotive</span></span>
+          <span class="nav-brand-dot" aria-hidden="true"></span>
+        </a>
+
+        <nav aria-label="Hoofdnavigatie">
+          <ul class="nav-links">
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="/src/pages/diensten.html" class="nav-link">Diensten</a></li>
+            <li><a href="/src/pages/over-ons.html" class="nav-link">Over Ons</a></li>
+            <li><a href="/src/pages/reviews.html" class="nav-link">Reviews</a></li>
+            <li><a href="/src/pages/contact.html" class="nav-link" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="status-pill" title="Live openingstijden werkplaats">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-business-hours-status>Werkplaats open</span>
+          </div>
+
+          <a href="tel:+31100000000" class="nav-phone-link" aria-label="Bel onze werkplaats direct">
+            <svg class="nav-phone-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span>010 000 0000</span>
+          </a>
+
+          <a href="/src/pages/contact.html" class="btn btn-primary">Afspraak Inplannen</a>
+
+          <button
+            type="button"
+            class="menu-toggle-btn"
+            data-drawer-toggle
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+            aria-label="Menu openen"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer-backdrop" data-drawer-backdrop aria-hidden="true"></div>
+    <aside id="mobile-nav" class="mobile-drawer" aria-hidden="true" aria-label="Mobiele navigatie">
+      <div class="mobile-drawer-header">
+        <div class="nav-brand">
+          <span class="nav-brand-text">Autora</span>
+          <span class="nav-brand-dot" aria-hidden="true"></span>
+        </div>
+        <button type="button" class="mobile-drawer-close-btn" data-drawer-close aria-label="Menu sluiten">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mobile-nav-links" aria-label="Mobiele navigatielinks">
+        <a href="/" class="mobile-nav-link">
+          <span>Home</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/diensten.html" class="mobile-nav-link">
+          <span>Diensten & Tarieven</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/over-ons.html" class="mobile-nav-link">
+          <span>Over Ons</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/reviews.html" class="mobile-nav-link">
+          <span>Klantbeoordelingen</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/contact.html" class="mobile-nav-link" aria-current="page">
+          <span>Contact & Route</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+      </nav>
+
+      <div class="mobile-drawer-footer">
+        <div class="status-pill" style="align-self: flex-start;">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-business-hours-status>Werkplaats open</span>
+        </div>
+        <a href="tel:+31100000000" class="btn btn-secondary" style="width: 100%;">
+          Direct bellen: 010 000 0000
+        </a>
+        <a href="/src/pages/contact.html" class="btn btn-primary" style="width: 100%;">
+          Afspraak Inplannen
+        </a>
+      </div>
+    </aside>
+
+    <!-- Hoofdinhoud -->
+    <main id="main-content">
+      <section class="section" aria-labelledby="contact-page-title">
+        <div class="container">
+          <!-- Page Header -->
+          <div class="animate-entrance" style="margin-bottom: var(--space-12);">
+            <span class="kicker">BEREIKBAARHEID & AFSPRAKEN</span>
+            <h1 id="contact-page-title" style="margin-bottom: var(--space-4);">Contact & Werkplaatslocatie</h1>
+            <p class="lead" style="max-width: 780px;">
+              Heeft u een vraag over uw auto, wilt u een diagnose inplannen of zoekt u een betrouwbaar advies?
+              Ons team staat voor u klaar in de Spaanse Polder te Rotterdam. Eenvoudig bereikbaar en altijd met gratis parkeren op eigen terrein.
+            </p>
+          </div>
+
+          <!-- 2-Column Contact & Form Section -->
+          <div class="grid grid-cols-1 grid-cols-2 gap-8 reveal-on-scroll" style="margin-bottom: var(--space-16);">
+            <!-- Contactgegevens & Routebeschrijving -->
+            <div class="card flex-col justify-between">
+              <div>
+                <span class="badge" style="margin-bottom: var(--space-3);">WERKPLAATS DETAILS</span>
+                <h2 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-4);">Locatie & Bereikbaarheid</h2>
+
+                <!-- Exterior Location Photo -->
+                <div class="editorial-image-frame" style="height: 220px; margin-bottom: var(--space-5);">
+                  <img
+                    src="/src/assets/images/garage-exterior.jpg"
+                    alt="Buitenaanzicht van de Autora Automotive werkplaats aan de Industrieweg in Rotterdam Spaanse Polder"
+                    loading="lazy"
+                    width="600"
+                    height="340"
+                  />
+                  <div class="editorial-image-badge">
+                    <span>Industrieweg, Spaanse Polder</span>
+                    <span>GRATIS PARKEREN VOOR DE DEUR</span>
+                  </div>
+                </div>
+
+                <div class="flex-col gap-5">
+                  <div>
+                    <strong style="display: block; color: var(--color-text-primary); margin-bottom: var(--space-1);">Adres Werkplaats</strong>
+                    <p style="color: var(--color-text-secondary); margin: 0 0 var(--space-1);">Industrieweg [Nummer], 3044 AS Rotterdam (Spaanse Polder)</p>
+                    <span style="font-size: var(--font-size-xs); color: var(--color-accent); font-weight: 600;">Direct aan de afrit van snelwegen A13 en A20 &bull; Gratis parkeren</span>
+                  </div>
+
+                  <div>
+                    <strong style="display: block; color: var(--color-text-primary); margin-bottom: var(--space-1);">Telefoon & Direct Contact</strong>
+                    <p style="margin: 0 0 var(--space-1);">
+                      <a href="tel:+31100000000" style="color: var(--color-accent); font-weight: 800; font-size: var(--font-size-xl);">+31 (0)10 000 0000</a>
+                    </p>
+                    <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Direct contact met de chef-werkplaats tijdens openingsuren</span>
+                  </div>
+
+                  <div>
+                    <strong style="display: block; color: var(--color-text-primary); margin-bottom: var(--space-1);">E-mailadres</strong>
+                    <p style="margin: 0;"><a href="mailto:info@autora-automotive.nl" style="color: var(--color-text-primary); font-weight: 600;">info@autora-automotive.nl</a></p>
+                  </div>
+
+                  <!-- Opening Hours Schedule -->
+                  <div style="border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-4);">
+                    <div class="flex justify-between items-center" style="margin-bottom: var(--space-3);">
+                      <strong style="color: var(--color-text-primary);">Openingstijden Werkplaats</strong>
+                      <div class="status-pill" title="Live status werkplaats">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        <span data-business-hours-status>Werkplaats open</span>
+                      </div>
+                    </div>
+
+                    <div class="flex justify-between" style="font-size: var(--font-size-sm); padding: var(--space-1) 0; border-bottom: 1px dashed var(--color-border-subtle);">
+                      <span style="color: var(--color-text-secondary);">Maandag – Vrijdag:</span>
+                      <strong style="color: var(--color-text-primary);">08:00 – 17:30 uur</strong>
+                    </div>
+                    <div class="flex justify-between" style="font-size: var(--font-size-sm); padding: var(--space-1) 0; color: var(--color-text-muted);">
+                      <span>Zaterdag & Zondag:</span>
+                      <span>Gesloten (uitsluitend op afspraak)</span>
+                    </div>
+                  </div>
+
+                  <!-- Route & Accessibility Steps -->
+                  <div style="border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-4);">
+                    <strong style="display: block; color: var(--color-text-primary); margin-bottom: var(--space-3);">Route & Toegankelijkheid</strong>
+
+                    <div class="route-step-item">
+                      <span class="route-step-badge">A13</span>
+                      <div style="font-size: var(--font-size-xs); color: var(--color-text-secondary);">
+                        <strong>Vanaf Den Haag / Delft:</strong> Neem afslag 11 Rotterdam The Hague Airport / Spaanse Polder. Binnen 3 minuten op ons terrein.
+                      </div>
+                    </div>
+
+                    <div class="route-step-item">
+                      <span class="route-step-badge">A20</span>
+                      <div style="font-size: var(--font-size-xs); color: var(--color-text-secondary);">
+                        <strong>Vanaf Gouda / Utrecht / Hoek van Holland:</strong> Neem afslag 12 Spaanse Polder. Volg de borden Industrieweg.
+                      </div>
+                    </div>
+
+                    <div class="route-step-item">
+                      <span class="route-step-badge">PARK</span>
+                      <div style="font-size: var(--font-size-xs); color: var(--color-text-secondary);">
+                        <strong>Gratis Parkeren:</strong> Ruime eigen parkeerplaatsen direct voor de overheaddeuren van de werkplaats.
+                      </div>
+                    </div>
+
+                    <div class="route-step-item">
+                      <span class="route-step-badge">OV</span>
+                      <div style="font-size: var(--font-size-xs); color: var(--color-text-secondary);">
+                        <strong>Openbaar Vervoer:</strong> RET Buslijnen 40 en 42 stoppen op 250 meter loopafstand (Halte Industrieweg).
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spoed Box -->
+              <div style="margin-top: var(--space-6); background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
+                <div style="font-size: var(--font-size-xs); font-weight: 700; color: var(--color-accent); text-transform: uppercase; letter-spacing: var(--letter-spacing-wide); margin-bottom: var(--space-1);">
+                  Spoedgeval of acute pech?
+                </div>
+                <p style="font-size: var(--font-size-xs); color: var(--color-text-secondary); margin: 0;">
+                  Heeft u met spoed hulp nodig bij een niet-startende auto of dreigende motorschade? Bel direct: <a href="tel:+31100000000" style="color: var(--color-text-primary); font-weight: 700;">010 000 0000</a>.
+                </p>
+              </div>
+            </div>
+
+            <!-- Formulier Container -->
+            <div class="card flex-col justify-between" id="appointment-form-card">
+              <div>
+                <span class="badge badge-accent" style="margin-bottom: var(--space-3);">ONLINE AFSPRAAK</span>
+                <h2 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-2);">Plan een Afspraak of Offerte</h2>
+                <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); margin-bottom: var(--space-6); line-height: 1.5;">
+                  Vul onderstaande gegevens in. U ontvangt tijdens werkdagen binnen 2 uur een persoonlijke bevestiging of een gespecificeerde prijsopgave van onze chef-werkplaats.
+                </p>
+
+                <!-- Success Container (Rendered dynamically upon submit) -->
+                <div id="form-success-container" class="form-success-card" style="display: none;" role="region" aria-live="polite"></div>
+
+                <!-- Interactive Form -->
+                <form id="appointment-form" action="#" method="POST" novalidate class="flex-col gap-4">
+                  <!-- Web3Forms API Configuration (Access Key can be customized) -->
+                  <input type="hidden" name="access_key" id="web3forms-access-key" value="DEMO_AUTORA_AUTOMOTIVE" />
+                  <input type="hidden" name="subject" value="Nieuwe Werkplaatsaanvraag — Autora Automotive" />
+                  <input type="hidden" name="from_name" value="Autora Automotive Website" />
+
+                  <!-- Anti-Spam Honeypot Field -->
+                  <div style="display: none !important;" aria-hidden="true">
+                    <label for="form-botcheck">Laat dit veld leeg als u mens bent</label>
+                    <input type="text" name="botcheck" id="form-botcheck" tabindex="-1" autocomplete="off" />
+                  </div>
+
+                  <!-- Global Error Banner -->
+                  <div id="form-global-error" class="form-error-banner" style="display: none;" role="alert"></div>
+
+                  <!-- Naam -->
+                  <div class="form-group">
+                    <label for="name" class="form-label">
+                      Uw Naam <span class="form-required" aria-hidden="true">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-input"
+                      placeholder="bijv. Jan Jansen"
+                      required
+                      autocomplete="name"
+                      aria-required="true"
+                    />
+                    <span class="field-error-message" id="name-error" role="alert" style="display: none;"></span>
+                  </div>
+
+                  <!-- Telefoon & E-mail -->
+                  <div class="grid grid-cols-1 grid-cols-2 gap-4">
+                    <div class="form-group">
+                      <label for="phone" class="form-label">
+                        Telefoonnummer <span class="form-required" aria-hidden="true">*</span>
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        class="form-input"
+                        placeholder="06 - 1234 5678"
+                        required
+                        autocomplete="tel"
+                        aria-required="true"
+                      />
+                      <span class="field-error-message" id="phone-error" role="alert" style="display: none;"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="form-label">
+                        E-mailadres <span class="form-required" aria-hidden="true">*</span>
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="uw@email.nl"
+                        required
+                        autocomplete="email"
+                        aria-required="true"
+                      />
+                      <span class="field-error-message" id="email-error" role="alert" style="display: none;"></span>
+                    </div>
+                  </div>
+
+                  <!-- Kenteken met visual badge preview -->
+                  <div class="form-group">
+                    <div class="flex justify-between items-center" style="margin-bottom: var(--space-1);">
+                      <label for="kenteken" class="form-label">
+                        Kenteken Voertuig <span class="form-required" aria-hidden="true">*</span>
+                      </label>
+                      <div class="kenteken-preview-box" title="Nederlands kenteken weergave">
+                        <span class="kenteken-eu-flag" aria-hidden="true">
+                          <span style="font-size: 0.5rem;">★</span>
+                          <span class="kenteken-eu-text">NL</span>
+                        </span>
+                        <span class="kenteken-number" id="kenteken-preview-text">XX-XX-XX</span>
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      id="kenteken"
+                      name="kenteken"
+                      class="form-input form-input-kenteken"
+                      placeholder="bijv. AB-123-C"
+                      required
+                      maxlength="10"
+                      autocomplete="off"
+                      aria-required="true"
+                      aria-describedby="kenteken-desc kenteken-error"
+                    />
+                    <span id="kenteken-desc" class="form-help-text">Automatische formattering &amp; merk/type specificaties</span>
+                    <span class="field-error-message" id="kenteken-error" role="alert" style="display: none;"></span>
+                  </div>
+
+                  <!-- Gewenste Dienst -->
+                  <div class="form-group">
+                    <label for="service-type" class="form-label">
+                      Gewenste Dienst of Onderhoud <span class="form-required" aria-hidden="true">*</span>
+                    </label>
+                    <select
+                      id="service-type"
+                      name="service-type"
+                      class="form-input form-select"
+                      required
+                      aria-required="true"
+                    >
+                      <option value="" disabled selected>Selecteer uw gewenste werkzaamheden...</option>
+                      <option value="RDW Erkende APK Keuring (€ 39,50)">RDW Erkende APK Keuring (€ 39,50)</option>
+                      <option value="Kleine Onderhoudsbeurt (vanaf € 149,-)">Kleine Onderhoudsbeurt (vanaf € 149,-)</option>
+                      <option value="Grote Onderhoudsbeurt (vanaf € 289,-)">Grote Onderhoudsbeurt (vanaf € 289,-)</option>
+                      <option value="Grote Beurt + APK Combinatie (APK € 19,95)">Grote Beurt + APK Combinatie (APK € 19,95)</option>
+                      <option value="Computergestuurde Storingsdiagnose (vanaf € 65,-)">Computergestuurde Storingsdiagnose (vanaf € 65,-)</option>
+                      <option value="Remmenservice & Bandenbeheer">Remmenservice & Bandenbeheer</option>
+                      <option value="Airco Service & Koudemiddel">Airco Service & Koudemiddel (R134a / R1234yf)</option>
+                      <option value="Distributieriem / Koppeling / Motorreparatie">Distributieriem / Koppeling / Motorreparatie</option>
+                      <option value="Onafhankelijke Aankoopkeuring">Onafhankelijke Aankoopkeuring</option>
+                      <option value="Overige werkzaamheden of advies">Overige werkzaamheden of advies</option>
+                    </select>
+                    <span class="field-error-message" id="service-type-error" role="alert" style="display: none;"></span>
+                  </div>
+
+                  <!-- Voorkeursdatum & Dagdeel -->
+                  <div class="grid grid-cols-1 grid-cols-2 gap-4">
+                    <div class="form-group">
+                      <label for="date-pref" class="form-label">
+                        Voorkeursdatum
+                      </label>
+                      <input
+                        type="date"
+                        id="date-pref"
+                        name="date-pref"
+                        class="form-input"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="time-pref" class="form-label">
+                        Dagdeel
+                      </label>
+                      <select
+                        id="time-pref"
+                        name="time-pref"
+                        class="form-input form-select"
+                      >
+                        <option value="Ochtend (08:00 – 12:00)">Ochtend (08:00 – 12:00)</option>
+                        <option value="Middag (12:00 – 17:30)">Middag (12:00 – 17:30)</option>
+                        <option value="Gehele dag (auto achterlaten)">Gehele dag (auto achterlaten)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Opties Vervangend Vervoer -->
+                  <div class="form-checkbox-group">
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="loaner-car" value="Ja, leenauto gewenst" class="form-checkbox" />
+                      <span>Ik wil graag gebruikmaken van een representatieve leenauto</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="wait-workshop" value="Ja, wachten in werkplaats" class="form-checkbox" />
+                      <span>Ik wil graag blijven wachten in de ontvangstruimte (koffie & Wi-Fi)</span>
+                    </label>
+                  </div>
+
+                  <!-- Toelichting -->
+                  <div class="form-group">
+                    <label for="message" class="form-label">
+                      Toelichting, Symptomen of Vragen
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="3"
+                      class="form-input form-textarea"
+                      placeholder="Omschrijf eventuele specifieke klachten, bijgeluiden of wensen"
+                    ></textarea>
+                  </div>
+
+                  <!-- Privacy Consent Notice -->
+                  <div class="form-group">
+                    <label class="form-checkbox-label" style="align-items: flex-start;">
+                      <input type="checkbox" name="privacy-consent" id="privacy-consent" required class="form-checkbox" style="margin-top: 3px;" />
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-secondary); line-height: 1.5;">
+                        Ik ga akkoord met de verwerking van mijn gegevens conform de <a href="/src/pages/privacy.html" style="color: var(--color-accent); text-decoration: underline;" target="_blank">Privacyverklaring (AVG)</a>. Mijn gegevens worden strikt vertrouwelijk behandeld. <span class="form-required" aria-hidden="true">*</span>
+                      </span>
+                    </label>
+                    <span class="field-error-message" id="privacy-consent-error" role="alert" style="display: none;"></span>
+                  </div>
+
+                  <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%;">
+                    <span class="btn-text">Afspraak Aanvragen &rarr;</span>
+                    <span class="btn-spinner" style="display: none;" aria-hidden="true">
+                      <svg class="animate-spin" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10" stroke-opacity="0.25"></circle>
+                        <path d="M12 2a10 10 0 0 1 10 10" stroke-linecap="round"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </form>
+              </div>
+
+              <div style="margin-top: var(--space-4); font-size: var(--font-size-xs); color: var(--color-text-muted); text-align: center;">
+                Directe werkplaatsbevestiging &bull; Geen verborgen kosten &bull; 100% AVG-conform
+              </div>
+            </div>
+          </div>
+
+          <!-- Spaanse Polder Location Orientation Card -->
+          <div class="card card-dark reveal-on-scroll" style="padding: var(--space-8);">
+            <div class="flex justify-between items-center flex-wrap gap-6">
+              <div>
+                <span class="badge badge-accent" style="margin-bottom: var(--space-2);">GOOGLE MAPS NAVIGATIE</span>
+                <h3 style="color: #ffffff; font-size: var(--font-size-xl); margin-bottom: var(--space-2);">
+                  Bezoek Onze Werkplaats in Rotterdam Spaanse Polder
+                </h3>
+                <p style="color: var(--color-text-dark-secondary); font-size: var(--font-size-sm); max-width: 620px; line-height: 1.6; margin: 0;">
+                  Plan uw route direct in Google Maps of Apple Kaarten. Onze centrale ligging direct aan de uitvalswegen garandeert een snelle en filevrije bereikbaarheid vanuit Rotterdam Centrum, Noord, Schiedam en Delft.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://maps.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Open in Google Maps &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Structured Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="grid grid-cols-1 grid-cols-2 grid-cols-4 gap-8" style="margin-bottom: var(--space-12);">
+          <div>
+            <div class="nav-brand" style="margin-bottom: var(--space-4);">
+              <span class="nav-brand-text" style="color: #ffffff;">Autora <span class="nav-brand-sub" style="color: #9ca3af;">Automotive</span></span>
+              <span class="nav-brand-dot" aria-hidden="true"></span>
+            </div>
+            <p style="font-size: var(--font-size-sm); color: #9ca3af; line-height: 1.6;">
+              Onafhankelijk garagebedrijf in Rotterdam. Toegewijd aan technische precisie, eerlijke communicatie en behoud van fabrieksgarantie.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Diensten</h4>
+            <ul class="flex-col gap-2" style="font-size: var(--font-size-sm);">
+              <li><a href="/src/pages/diensten.html#onderhoud">Kleine & Grote Beurt</a></li>
+              <li><a href="/src/pages/diensten.html#apk">APK Keuring</a></li>
+              <li><a href="/src/pages/diensten.html#diagnose">Storingsdiagnose</a></li>
+              <li><a href="/src/pages/diensten.html#remmen-banden">Remmen & Onderstel</a></li>
+              <li><a href="/src/pages/diensten.html#airco">Airco Service</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Werkplaats & Contact</h4>
+            <div class="footer-contact-list">
+              <p><strong style="color: #ffffff;">Adres:</strong> <a href="/src/pages/contact.html" class="footer-contact-link">Industrieweg [Nummer], Rotterdam</a></p>
+              <p><strong style="color: #ffffff;">Telefoon:</strong> <a href="tel:+31100000000" class="footer-contact-link">+31 (0)10 000 0000</a></p>
+              <p><strong style="color: #ffffff;">E-mail:</strong> <a href="mailto:info@autora-automotive.nl" class="footer-contact-link">info@autora-automotive.nl</a></p>
+              <p style="margin-top: var(--space-2);"><strong style="color: #ffffff;">Openingstijden:</strong> <span class="footer-contact-highlight">Ma–Vr: 08:00 – 17:30</span></p>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Informatie & Status</h4>
+            <ul class="flex-col gap-2" style="font-size: var(--font-size-sm); margin-bottom: var(--space-4);">
+              <li><a href="/src/pages/privacy.html">Privacyverklaring (AVG)</a></li>
+              <li><a href="/src/pages/algemene-voorwaarden.html">Algemene Voorwaarden</a></li>
+              <li><a href="/src/pages/reviews.html">Google Recensies Hub</a></li>
+            </ul>
+            <div class="footer-disclaimer-card">
+              <strong>Demonstratiestatus:</strong>
+              Deze website fungeert als verkoopdemonstratie voor garages in Rotterdam. Bedrijfsgegevens zijn fictieve voorbeelden.
+            </div>
+          </div>
+        </div>
+
+        <div style="border-top: 1px solid var(--color-border-dark); padding-top: var(--space-6); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-4); font-size: var(--font-size-xs); color: #6b7280;">
+          <p>&copy; <span data-current-year>2026</span> Autora Automotive. Alle rechten voorbehouden.</p>
+          <p>Gerealiseerd als high-performance statische demonstratie.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </body>
+</html>

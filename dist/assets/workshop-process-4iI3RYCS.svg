@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" role="img" aria-label="Schematische weergave van het Autora Automotive 3-stappen werkplaatsproces">
+  <defs>
+    <linearGradient id="procBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171d" />
+      <stop offset="100%" stop-color="#0e1013" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e85d04" />
+      <stop offset="50%" stop-color="#4b5563" />
+      <stop offset="100%" stop-color="#e85d04" />
+    </linearGradient>
+    <pattern id="dotPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255, 255, 255, 0.05)" />
+    </pattern>
+  </defs>
+
+  <!-- Deep Canvas & Grid -->
+  <rect width="880" height="500" rx="16" fill="url(#procBg)" stroke="rgba(255, 255, 255, 0.08)" />
+  <rect width="880" height="500" rx="16" fill="url(#dotPattern)" />
+
+  <!-- Process Timeline Connecting Line -->
+  <line x1="160" y1="210" x2="720" y2="210" stroke="url(#lineGrad)" stroke-width="2" stroke-dasharray="6 4" opacity="0.6" />
+
+  <!-- Step 1: Intake & Diagnose -->
+  <g transform="translate(160, 210)">
+    <!-- Node Circle -->
+    <circle cx="0" cy="0" r="36" fill="#1c2027" stroke="#e85d04" stroke-width="2" />
+    <!-- Diagnostic Wave / Plug Icon -->
+    <path d="M -14 0 L -6 0 L -2 -10 L 4 12 L 8 -6 L 14 0" fill="none" stroke="#f8f9fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="0" cy="-48" r="14" fill="#e85d04" />
+    <text x="0" y="-43" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">01</text>
+    
+    <!-- Info Card Below -->
+    <g transform="translate(-110, 52)">
+      <rect width="220" height="150" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" />
+      <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#ffffff">1. Intake &amp; Analyse</text>
+      <text x="16" y="52" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af">
+        <tspan x="16" dy="0">Grondige inspectie van</tspan>
+        <tspan x="16" dy="18">mechanica en sensoren</tspan>
+        <tspan x="16" dy="18">via officiële OBD-II analyse.</tspan>
+      </text>
+      <path d="M 16 118 L 204 118" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" />
+      <text x="16" y="136" font-family="'JetBrains Mono', monospace" font-size="10" fill="#e85d04">DIAGNOSTISCHE SCAN</text>
+    </g>
+  </g>
+
+  <!-- Step 2: Heldere Prijsopgave -->
+  <g transform="translate(440, 210)">
+    <!-- Node Circle -->
+    <circle cx="0" cy="0" r="36" fill="#1c2027" stroke="#4b5563" stroke-width="2" />
+    <!-- Checklist / Document Icon -->
+    <rect x="-10" y="-14" width="20" height="26" rx="2" fill="none" stroke="#f8f9fa" stroke-width="2" />
+    <line x1="-5" y1="-7" x2="5" y2="-7" stroke="#e85d04" stroke-width="2" />
+    <line x1="-5" y1="-1" x2="5" y2="-1" stroke="#f8f9fa" stroke-width="2" />
+    <line x1="-5" y1="5" x2="2" y2="5" stroke="#f8f9fa" stroke-width="2" />
+    <circle cx="0" cy="-48" r="14" fill="#2d333e" />
+    <text x="0" y="-43" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">02</text>
+
+    <!-- Info Card Below -->
+    <g transform="translate(-110, 52)">
+      <rect width="220" height="150" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" />
+      <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#ffffff">2. Helder Overleg</text>
+      <text x="16" y="52" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af">
+        <tspan x="16" dy="0">Duidelijke specificatie</tspan>
+        <tspan x="16" dy="18">van onderdelen en uren.</tspan>
+        <tspan x="16" dy="18">Geen onverwacht meerwerk.</tspan>
+      </text>
+      <path d="M 16 118 L 204 118" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" />
+      <text x="16" y="136" font-family="'JetBrains Mono', monospace" font-size="10" fill="#9ca3af">AKKOORD VÓÓRAF</text>
+    </g>
+  </g>
+
+  <!-- Step 3: Vakkundig Herstel & Oplevering -->
+  <g transform="translate(720, 210)">
+    <!-- Node Circle -->
+    <circle cx="0" cy="0" r="36" fill="#1c2027" stroke="#e85d04" stroke-width="2" />
+    <!-- Torque / Wrench Icon -->
+    <path d="M -8.5 -5.5 L -12.5 -1.5 A 8.5 8.5 0 0 1 -15 -11 L -10.5 -7 A 3.5 3.5 0 0 1 -7 -10.5 L -11 -15 A 8.5 8.5 0 0 1 -1.5 -12.5 L -5.5 -8.5 Z" fill="#f8f9fa" />
+    <path d="M -8.5 -5.5 L -5.5 -8.5 L 11.5 8.5 A 2.5 2.5 0 0 1 8.5 11.5 Z" fill="#e85d04" />
+    <circle cx="0" cy="-48" r="14" fill="#e85d04" />
+    <text x="0" y="-43" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">03</text>
+
+    <!-- Info Card Below -->
+    <g transform="translate(-110, 52)">
+      <rect width="220" height="150" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" />
+      <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#ffffff">3. Vakkundig Herstel</text>
+      <text x="16" y="52" font-family="'Inter', sans-serif" font-size="12" fill="#9ca3af">
+        <tspan x="16" dy="0">Montage volgens richtlijn</tspan>
+        <tspan x="16" dy="18">met OE-onderdelen en</tspan>
+        <tspan x="16" dy="18">behoud fabrieksgarantie.</tspan>
+      </text>
+      <path d="M 16 118 L 204 118" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" />
+      <text x="16" y="136" font-family="'JetBrains Mono', monospace" font-size="10" fill="#e85d04">GARANTIEBEHOUD</text>
+    </g>
+  </g>
+
+  <!-- Header Banner Top of Illustration -->
+  <g transform="translate(40, 36)">
+    <rect width="260" height="34" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" />
+    <circle cx="16" cy="17" r="4" fill="#e85d04" />
+    <text x="28" y="21" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#d1d5db" letter-spacing="1">STANDAARD WERKWIJZE</text>
+  </g>
+</svg>
+

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klantbeoordelingen & Reviews | Autora Automotive Rotterdam</title>
+    <meta
+      name="description"
+      content="Bekijk beoordelingen en ervaringen van klanten van Autora Automotive via ons officiële Google Bedrijfsprofiel."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Direct naar inhoud</a>
+
+    <!-- Header & Navigatie -->
+    <header class="site-header">
+      <div class="container site-nav">
+        <a href="/" class="nav-brand" aria-label="Autora Automotive Home">
+          <span class="nav-brand-text">Autora <span class="nav-brand-sub">Automotive</span></span>
+          <span class="nav-brand-dot" aria-hidden="true"></span>
+        </a>
+
+        <nav aria-label="Hoofdnavigatie">
+          <ul class="nav-links">
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="/src/pages/diensten.html" class="nav-link">Diensten</a></li>
+            <li><a href="/src/pages/over-ons.html" class="nav-link">Over Ons</a></li>
+            <li><a href="/src/pages/reviews.html" class="nav-link" aria-current="page">Reviews</a></li>
+            <li><a href="/src/pages/contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="status-pill" title="Live openingstijden werkplaats">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-business-hours-status>Werkplaats open</span>
+          </div>
+
+          <a href="tel:+31100000000" class="nav-phone-link" aria-label="Bel onze werkplaats direct">
+            <svg class="nav-phone-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span>010 000 0000</span>
+          </a>
+
+          <a href="/src/pages/contact.html" class="btn btn-primary">Afspraak Inplannen</a>
+
+          <button
+            type="button"
+            class="menu-toggle-btn"
+            data-drawer-toggle
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+            aria-label="Menu openen"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer-backdrop" data-drawer-backdrop aria-hidden="true"></div>
+    <aside id="mobile-nav" class="mobile-drawer" aria-hidden="true" aria-label="Mobiele navigatie">
+      <div class="mobile-drawer-header">
+        <div class="nav-brand">
+          <span class="nav-brand-text">Autora</span>
+          <span class="nav-brand-dot" aria-hidden="true"></span>
+        </div>
+        <button type="button" class="mobile-drawer-close-btn" data-drawer-close aria-label="Menu sluiten">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mobile-nav-links" aria-label="Mobiele navigatielinks">
+        <a href="/" class="mobile-nav-link">
+          <span>Home</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/diensten.html" class="mobile-nav-link">
+          <span>Diensten & Tarieven</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/over-ons.html" class="mobile-nav-link">
+          <span>Over Ons</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/reviews.html" class="mobile-nav-link" aria-current="page">
+          <span>Klantbeoordelingen</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+        <a href="/src/pages/contact.html" class="mobile-nav-link">
+          <span>Contact & Route</span>
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+      </nav>
+
+      <div class="mobile-drawer-footer">
+        <div class="status-pill" style="align-self: flex-start;">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-business-hours-status>Werkplaats open</span>
+        </div>
+        <a href="tel:+31100000000" class="btn btn-secondary" style="width: 100%;">
+          Direct bellen: 010 000 0000
+        </a>
+        <a href="/src/pages/contact.html" class="btn btn-primary" style="width: 100%;">
+          Afspraak Inplannen
+        </a>
+      </div>
+    </aside>
+
+    <!-- Hoofdinhoud -->
+    <main id="main-content">
+      <section class="section" aria-labelledby="reviews-page-title">
+        <div class="container">
+          <!-- Page Header -->
+          <div class="animate-entrance" style="margin-bottom: var(--space-12);">
+            <span class="kicker">TRANSPARANTE FEEDBACK & BEOORDELINGEN</span>
+            <h1 id="reviews-page-title" style="margin-bottom: var(--space-4);">Ervaringen van Onze Klanten</h1>
+            <p class="lead" style="max-width: 780px;">
+              Eerlijke recensies van automobilisten uit Rotterdam en de omliggende regio.
+              Wij geloven in 100% transparantie: al onze beoordelingen zijn openbaar en geverifieerd via ons officiële Google Bedrijfsprofiel.
+            </p>
+          </div>
+
+          <!-- Google Reviews Hub Aggregate Card -->
+          <div class="card reveal-on-scroll" style="margin-bottom: var(--space-16); padding: var(--space-8);">
+            <div class="grid grid-cols-1 grid-cols-3 gap-8 items-center">
+              <!-- Left: Score & Stars -->
+              <div style="border-bottom: 1px solid var(--color-border-subtle); padding-bottom: var(--space-6);">
+                <span class="badge badge-accent" style="margin-bottom: var(--space-3);">OFFICIËLE GOOGLE MAPS SCORE</span>
+                <div style="display: flex; align-items: baseline; gap: var(--space-3); margin-bottom: var(--space-2);">
+                  <span style="font-family: var(--font-family-display); font-size: 3.5rem; font-weight: 800; color: var(--color-text-primary); line-height: 1;">4.9</span>
+                  <span style="font-size: var(--font-size-base); color: var(--color-text-muted);">/ 5.0</span>
+                </div>
+                <div class="review-stars" style="margin-bottom: var(--space-2);">
+                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                </div>
+                <div style="font-size: var(--font-size-sm); color: var(--color-text-secondary); font-weight: 500;">
+                  Gebaseerd op <strong>142 geverifieerde reviews</strong>
+                </div>
+              </div>
+
+              <!-- Middle: Rating Distribution Bars -->
+              <div class="flex-col gap-2" style="border-bottom: 1px solid var(--color-border-subtle); padding-bottom: var(--space-6);">
+                <div class="rating-bar-row">
+                  <span class="rating-bar-label">5 ster</span>
+                  <div class="rating-bar-track">
+                    <div class="rating-bar-fill" style="width: 92%;"></div>
+                  </div>
+                  <span class="rating-bar-pct">92%</span>
+                </div>
+                <div class="rating-bar-row">
+                  <span class="rating-bar-label">4 ster</span>
+                  <div class="rating-bar-track">
+                    <div class="rating-bar-fill" style="width: 7%;"></div>
+                  </div>
+                  <span class="rating-bar-pct">7%</span>
+                </div>
+                <div class="rating-bar-row">
+                  <span class="rating-bar-label">3 ster</span>
+                  <div class="rating-bar-track">
+                    <div class="rating-bar-fill" style="width: 1%;"></div>
+                  </div>
+                  <span class="rating-bar-pct">1%</span>
+                </div>
+                <div class="rating-bar-row">
+                  <span class="rating-bar-label">2 ster</span>
+                  <div class="rating-bar-track">
+                    <div class="rating-bar-fill" style="width: 0%;"></div>
+                  </div>
+                  <span class="rating-bar-pct">0%</span>
+                </div>
+                <div class="rating-bar-row">
+                  <span class="rating-bar-label">1 ster</span>
+                  <div class="rating-bar-track">
+                    <div class="rating-bar-fill" style="width: 0%;"></div>
+                  </div>
+                  <span class="rating-bar-pct">0%</span>
+                </div>
+              </div>
+
+              <!-- Right: Direct Link Actions -->
+              <div class="flex-col gap-3">
+                <a
+                  href="https://maps.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                  style="width: 100%;"
+                >
+                  Bekijk Profiel op Google Maps &rarr;
+                </a>
+                <a
+                  href="/src/pages/contact.html"
+                  class="btn btn-secondary"
+                  style="width: 100%;"
+                >
+                  Afspraak Inplannen in de Werkplaats
+                </a>
+                <span style="font-size: var(--font-size-xs); color: var(--color-text-muted); text-align: center;">
+                  Geverifieerd via Google Bedrijfsprofiel
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curated Review Cards Grid -->
+          <div class="reveal-on-scroll" style="margin-bottom: var(--space-16);">
+            <div style="margin-bottom: var(--space-8);">
+              <span class="kicker">SELECTIE VAN RECENSIES</span>
+              <h2 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-2);">Recente Ervaringen per Categorie</h2>
+              <p class="text-muted">Illustratieve voorbeelden van klantervaringen bij verschillende werkplaatswerkzaamheden.</p>
+            </div>
+
+            <div class="grid grid-cols-1 grid-cols-2 gap-8">
+              <!-- Review 1: Onderhoud & APK -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        MD
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">M. van Dijk</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Volkswagen Golf 1.5 eTSI &bull; Particulier</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">3 weken geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Voor de eerste keer bij Autora geweest voor een grote beurt en APK. Wat een verademing vergeleken met de officiële merkdealer in Rotterdam. Heldere uitleg bij binnenkomst, een telefoontje halverwege de dag over de achterste remblokken met exacte prijs, en de auto stond keurig op de afgesproken tijd klaar. Fabrieksgarantie digitaal netjes ingevuld in het VW-systeem. Ik kom hier zeker terug."
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Beste Marcel, hartelijk dank voor het vertrouwen en de prettige review. Fijn dat de digitale fabrieksregistratie soepel is verlopen. Goede en veilige kilometers gewenst!"
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: Grote Beurt & APK &bull; Geverifieerd via Google
+                </div>
+              </article>
+
+              <!-- Review 2: Bedrijfsbus Storing -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        SE
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">S. El Amrani</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Mercedes-Benz Sprinter 316 CDI &bull; Zakelijk</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">1 maand geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Onze koeriersbus had al weken last van een wisselende noodloop en een hardnekkig motormanagementlampje waar twee andere garages niet uitkwamen. Autora heeft met gerichte oscilloscoopmetingen de kabelboom gecontroleerd en een gecorrodeerde turbodruksensor ontdekt. Binnen 24 uur weer probleemloos op de weg. Zakelijk van onschatbare waarde!"
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Dank Samil! Bij bedrijfsvoertuigen telt stilstand dubbel. Goed dat we de storing gericht bij de bron hebben kunnen lokaliseren zonder onnodige onderdelen te vervangen."
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: Storingsdiagnose & Sensormontage &bull; Geverifieerd via Google
+                </div>
+              </article>
+
+              <!-- Review 3: Remmen & Onderstel -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        AB
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">Anouk de Boer</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Volvo V60 D4 &bull; Particulier</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">2 maanden geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Mijn auto trok al een tijdje licht naar rechts op de snelweg en trilde in het stuur bij krachtig remmen. Na een grondige 3D-laseruitlijning en het monteren van nieuwe ATE remschijven en blokken stuurt de auto weer kaarsrecht en geruisloos. Heel prettig geholpen door de monteur die mij de versleten schijven ook even liet zien."
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Fijn om te horen Anouk! Juiste 4-wiel wieluitlijning en verse kwaliteitsremmen geven direct weer dat vertrouwde, veilige rijgevoel terug."
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: Remmenservice & 3D Uitlijning &bull; Geverifieerd via Google
+                </div>
+              </article>
+
+              <!-- Review 4: Airco & Koudemiddel -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        RL
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">R. van der Linden</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">BMW 320i Touring &bull; Particulier</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">3 maanden geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Vlak voor onze vakantierit naar Zuid-Frankrijk de airco laten nakijken omdat hij alleen nog lauwe lucht blies. Het nieuwere R1234yf systeem bleek koudemiddel verloren te zijn via een verweerde afdichtring. Direct afgeperst, gerepareerd en opnieuw gevuld inclusief ozon-geurbehandeling. IJskoude en frisse lucht tijdens de hele reis. Topservice!"
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Dank Robert! Tijdige controle voorkomt bovendien kostbare schade aan de aircocompressor. Goede reis en graag tot de volgende check."
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: R1234yf Airco Service & Ozonbehandeling &bull; Geverifieerd via Google
+                </div>
+              </article>
+
+              <!-- Review 5: Aankoopkeuring -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        KJ
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">Koen Janssen</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Audi A4 Avant 2.0 TFSI &bull; Particulier</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">4 maanden geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Ik stond op het punt een tweedehands Audi te kopen bij een autobedrijf in de regio en vroeg Autora om een onafhankelijke aankoopkeuring. Op de hefbrug ontdekten ze direct beginnende oliezweet bij het kleppendeksel en speling op de draagarmrubbers. Dankzij hun analyserapport heb ik ruim € 800 van de vraagprijs af gekregen. Heeft zichzelf dubbel en dwars terugverdiend."
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Verstandige zet Koen! Een onafhankelijke technische inspectie vóór aankoop voorkomt nare financiële verrassingen achteraf."
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: Onafhankelijke Aankoopkeuring &bull; Geverifieerd via Google
+                </div>
+              </article>
+
+              <!-- Review 6: APK Wachtruimte -->
+              <article class="card card-interactive flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between flex-wrap gap-2" style="margin-bottom: var(--space-3);">
+                    <div class="flex items-center gap-3">
+                      <div style="width: 40px; height: 40px; border-radius: 50%; background-color: var(--color-surface-subtle); border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--color-accent);">
+                        PV
+                      </div>
+                      <div>
+                        <strong style="color: var(--color-text-primary); display: block;">Pieter Vermeulen</strong>
+                        <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">Toyota Yaris Hybrid &bull; Particulier</span>
+                      </div>
+                    </div>
+                    <div style="text-align: right;">
+                      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                      <span style="font-size: var(--font-size-xs); color: var(--color-text-muted);">5 maanden geleden</span>
+                    </div>
+                  </div>
+
+                  <p style="color: var(--color-text-secondary); font-size: var(--font-size-sm); line-height: 1.6; margin-bottom: var(--space-4);">
+                    "Fijne en overzichtelijke garage. Ik kon rustig wachten op de APK met een kop verse bonenkoffie en laptop in de ontvangstruimte. Geen flauwekul of aangesmeerde ruitenwissers die eigenlijk nog goed waren. Binnen 45 minuten reed ik weer weg met een goedgekeurde auto en officieel RDW rapport. Zo hoort een garagebezoek te zijn."
+                  </p>
+
+                  <div style="background-color: var(--color-surface-subtle); border-left: 3px solid var(--color-accent); padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-bottom: var(--space-4);">
+                    <strong style="color: var(--color-text-primary); display: block; margin-bottom: 2px;">Reactie van Autora Automotive:</strong>
+                    "Hartelijk dank Pieter! Eerlijkheid en respect voor uw tijd staan bij ons altijd voorop. Graag tot de volgende reguliere keuring!"
+                  </div>
+                </div>
+
+                <div style="font-size: var(--font-size-xs); color: var(--color-text-muted); border-top: 1px solid var(--color-border-subtle); padding-top: var(--space-3);">
+                  Dienst: RDW APK Keuring (Wachtservice) &bull; Geverifieerd via Google
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Demonstratie Disclosure Card -->
+          <div class="card card-dark reveal-on-scroll" style="margin-bottom: var(--space-16); padding: var(--space-6) var(--space-8);">
+            <div class="flex items-center gap-4 flex-wrap">
+              <span class="badge badge-accent">DEMONSTRATIE STATUS</span>
+              <p style="font-size: var(--font-size-xs); color: #9ca3af; margin: 0; line-height: 1.6;">
+                Deze reviews en statistieken fungeren als representatieve demonstratieweergave voor automotive ondernemers in Rotterdam.
+                Bij oplevering voor een operationele garage wordt dit profiel direct gekoppeld met het daadwerkelijke Google Bedrijfsprofiel van de betreffende garage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Conversion Callout Banner -->
+          <div class="conversion-card reveal-on-scroll">
+            <div class="flex justify-between items-center flex-wrap gap-8">
+              <div style="max-width: 620px;">
+                <span class="badge badge-accent" style="margin-bottom: var(--space-3);">ERVAAR HET ZELF</span>
+                <h2 style="font-size: var(--font-size-3xl); color: #ffffff; margin-bottom: var(--space-3); letter-spacing: -0.02em;">
+                  Word ook een tevreden Autora klant.
+                </h2>
+                <p style="color: var(--color-text-dark-secondary); margin-bottom: var(--space-6); font-size: var(--font-size-base); line-height: 1.6;">
+                  Plan uw onderhoud of APK eenvoudig online in of bel direct met onze chef-werkplaats in Rotterdam.
+                </p>
+                <div class="flex items-center gap-4 flex-wrap">
+                  <a href="/src/pages/contact.html" class="btn btn-primary">
+                    Afspraak Inplannen &rarr;
+                  </a>
+                  <a href="tel:+31100000000" class="btn btn-dark">
+                    Bel Direct: 010 000 0000
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Structured Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="grid grid-cols-1 grid-cols-2 grid-cols-4 gap-8" style="margin-bottom: var(--space-12);">
+          <div>
+            <div class="nav-brand" style="margin-bottom: var(--space-4);">
+              <span class="nav-brand-text" style="color: #ffffff;">Autora <span class="nav-brand-sub" style="color: #9ca3af;">Automotive</span></span>
+              <span class="nav-brand-dot" aria-hidden="true"></span>
+            </div>
+            <p style="font-size: var(--font-size-sm); color: #9ca3af; line-height: 1.6;">
+              Onafhankelijk garagebedrijf in Rotterdam. Toegewijd aan technische precisie, eerlijke communicatie en behoud van fabrieksgarantie.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Diensten</h4>
+            <ul class="flex-col gap-2" style="font-size: var(--font-size-sm);">
+              <li><a href="/src/pages/diensten.html#onderhoud">Kleine & Grote Beurt</a></li>
+              <li><a href="/src/pages/diensten.html#apk">APK Keuring</a></li>
+              <li><a href="/src/pages/diensten.html#diagnose">Storingsdiagnose</a></li>
+              <li><a href="/src/pages/diensten.html#remmen-banden">Remmen & Onderstel</a></li>
+              <li><a href="/src/pages/diensten.html#airco">Airco Service</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Werkplaats & Contact</h4>
+            <div class="footer-contact-list">
+              <p><strong style="color: #ffffff;">Adres:</strong> <a href="/src/pages/contact.html" class="footer-contact-link">Industrieweg [Nummer], Rotterdam</a></p>
+              <p><strong style="color: #ffffff;">Telefoon:</strong> <a href="tel:+31100000000" class="footer-contact-link">+31 (0)10 000 0000</a></p>
+              <p><strong style="color: #ffffff;">E-mail:</strong> <a href="mailto:info@autora-automotive.nl" class="footer-contact-link">info@autora-automotive.nl</a></p>
+              <p style="margin-top: var(--space-2);"><strong style="color: #ffffff;">Openingstijden:</strong> <span class="footer-contact-highlight">Ma–Vr: 08:00 – 17:30</span></p>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Informatie & Status</h4>
+            <ul class="flex-col gap-2" style="font-size: var(--font-size-sm); margin-bottom: var(--space-4);">
+              <li><a href="/src/pages/privacy.html">Privacyverklaring (AVG)</a></li>
+              <li><a href="/src/pages/algemene-voorwaarden.html">Algemene Voorwaarden</a></li>
+              <li><a href="/src/pages/reviews.html">Google Recensies Hub</a></li>
+            </ul>
+            <div class="footer-disclaimer-card">
+              <strong>Demonstratiestatus:</strong>
+              Deze website fungeert als verkoopdemonstratie voor garages in Rotterdam. Bedrijfsgegevens zijn fictieve voorbeelden.
+            </div>
+          </div>
+        </div>
+
+        <div style="border-top: 1px solid var(--color-border-dark); padding-top: var(--space-6); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-4); font-size: var(--font-size-xs); color: #6b7280;">
+          <p>&copy; <span data-current-year>2026</span> Autora Automotive. Alle rechten voorbehouden.</p>
+          <p>Gerealiseerd als high-performance statische demonstratie.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </body>
+</html>
